@@ -1,0 +1,145 @@
+{
+    "1": {
+        "id": 1,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "Benzin",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    "2": {
+        "id": 2,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "Benzin",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    "3": {
+        "id": 3,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "Benzin",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "https:\/\/media.ed.edmunds-media.com\/honda\/civic\/2019\/oem\/2019_honda_civic_sedan_touring_fq_oem_1_815.jpg"
+    },
+    "4": {
+        "id": 4,
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "transmission": "Automata",
+        "fuel_type": "Hybrid",
+        "passengers": 5,
+        "daily_price_huf": 17500,
+        "image": "https:\/\/media.ed.edmunds-media.com\/toyota\/corolla\/2020\/oem\/2020_toyota_corolla_sedan_xle_fq_oem_1_815.jpg"
+    },
+    "5": {
+        "id": 5,
+        "brand": "Ford",
+        "model": "Focus",
+        "year": 2018,
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "D\u00edzel",
+        "passengers": 5,
+        "daily_price_huf": 15200,
+        "image": "https:\/\/media.ed.edmunds-media.com\/ford\/focus\/2018\/td\/2018_ford_focus_prf_td_828171_717.jpg"
+    },
+    "6": {
+        "id": 6,
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "year": 2021,
+        "transmission": "Automata",
+        "fuel_type": "Benzin",
+        "passengers": 5,
+        "daily_price_huf": 18500,
+        "image": "https:\/\/www.edmunds.com\/assets\/m\/volkswagen\/golf\/2020\/oem\/2020_volkswagen_golf_4dr-hatchback_tsi_fq_oem_6_600.jpg"
+    },
+    "7": {
+        "id": 7,
+        "brand": "BMW",
+        "model": "3 Series",
+        "year": 2022,
+        "transmission": "Automata",
+        "fuel_type": "Benzin",
+        "passengers": 5,
+        "daily_price_huf": 35000,
+        "image": "https:\/\/parkers-images.bauersecure.com\/wp-images\/174840\/bmw_3_series_050.jpg"
+    },
+    "8": {
+        "id": 8,
+        "brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2021,
+        "transmission": "Automata",
+        "fuel_type": "Benzin",
+        "passengers": 5,
+        "daily_price_huf": 40000,
+        "image": "https:\/\/car-images.bauersecure.com\/wp-images\/12569\/16merccclass.jpg"
+    },
+    "9": {
+        "id": 9,
+        "brand": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "transmission": "Automata",
+        "fuel_type": "D\u00edzel",
+        "passengers": 5,
+        "daily_price_huf": 37000,
+        "image": "https:\/\/assets.adac.de\/image\/upload\/v1\/Autodatenbank\/Fahrzeugbilder\/im05754-1-audi-a4.jpg"
+    },
+    "6780077e902b7": {
+        "brand": "Tesla",
+        "model": "Model S",
+        "year": 2020,
+        "transmission": "Automata",
+        "fuel_type": "Elektromos",
+        "passengers": 7,
+        "daily_price_huf": 40000,
+        "image": "https:\/\/hips.hearstapps.com\/hmg-prod\/images\/2025-tesla-model-s-1-672d42e172407.jpg?crop=0.465xw:0.466xh;0.285xw,0.361xh&amp;resize=2048:*",
+        "id": "6780077e902b7"
+    },
+    "67800795cb866": {
+        "brand": "Tesla",
+        "model": "Model 3",
+        "year": 2020,
+        "transmission": "Automata",
+        "fuel_type": "Elektromos",
+        "passengers": 7,
+        "daily_price_huf": 35000,
+        "image": "https:\/\/www.shop4tesla.com\/cdn\/shop\/articles\/lohnt-sich-ein-gebrauchtes-tesla-model-3-vor-und-nachteile-833053.jpg?v=1733570691",
+        "id": "67800795cb866"
+    },
+    "678008d9b1c72": {
+        "brand": "Ferrari",
+        "model": "Testarossa",
+        "year": 1989,
+        "transmission": "Manu\u00e1lis",
+        "fuel_type": "Benzin",
+        "passengers": 2,
+        "daily_price_huf": 150000,
+        "image": "https:\/\/hips.hearstapps.com\/hmg-prod\/images\/john-phillips-dec-2018-ferrari-testarossa-lead-1543866241.jpg",
+        "id": "678008d9b1c72"
+    },
+    "67802ab1579c6": {
+        "brand": "volvo",
+        "model": "XC90",
+        "year": 2019,
+        "transmission": "Automata",
+        "fuel_type": "Hybrid",
+        "passengers": 5,
+        "daily_price_huf": 50000,
+        "image": "https:\/\/i.guim.co.uk\/img\/media\/5e1f4118dcf18493afac0a8a8e55326d115b1709\/647_543_3841_2305\/master\/3841.jpg?width=1200&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0ee048acc8fa67793385566c2fb57786",
+        "id": "67802ab1579c6"
+    }
+}

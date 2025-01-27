@@ -1,0 +1,23 @@
+{
+    "67803226139bb": {
+        "email": "admin@ikarrental.hu",
+        "fullname": "admin admin",
+        "password": "$2y$10$qf4IuxtvvqbajwtfjiiwPuRdNdT6PsHxrj2SZh8T3V6cMnfJQ7KxO",
+        "roles": "admin",
+        "id": "67803226139bb"
+    },
+    "67803288c47b1": {
+        "email": "balinagy888@gmail.com",
+        "fullname": "Nagy Bal\u00e1zs",
+        "password": "$2y$10$5hanCRGQXYYKtcI5voXB3O.LJcUTDOWBsPwjpnYYOJHSX4ez\/zmx2",
+        "roles": "user",
+        "id": "67803288c47b1"
+    },
+    "67804cbe0bb1b": {
+        "email": "bab@gmail.com",
+        "fullname": "b\u00f3dis barbara",
+        "password": "$2y$10$IuqnjpxNR4LzJI4Xv2\/aO.GEVGTyZGix1iHabYUqpYGN1qEmJ6uEe",
+        "roles": "user",
+        "id": "67804cbe0bb1b"
+    }
+}

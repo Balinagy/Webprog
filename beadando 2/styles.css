@@ -1,0 +1,339 @@
+.login-button {
+    background-color: transparent;
+    border: none;
+    color: #cfcfcf;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.reg-button{
+    background-color: #FDC43D;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+body {
+    background-color: #1B1B1B;
+}
+.ad-container{
+    margin-right: 10px;
+}
+.ad{
+    color: #E7E7E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.ad span{
+    padding: 0;
+}
+
+.filter-button{
+    background-color: #FDC43D;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.filter-area{
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-area {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.filter-top-row {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 10px;
+}
+/*nem tűnik el a férőhely filter, nem szép, de működik*/
+@media (max-width: 630px) {
+    .filter-top-row {
+        flex-direction: column !important;
+        justify-content:flex-end;
+    }
+}
+.size-filter {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.size-filter button{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #cfcfd1;
+    padding: 0 10px 0 10px;
+}
+.actual-size
+{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #cfcfd1;
+    padding: 0 10px 0 10px;
+}
+.size-span
+{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    border-color: #cfcfd1;
+    padding: 0 10px 0 10px;
+}
+.time-input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.time-input input
+{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #cfcfd1;
+    padding: 0 10px 0 10px;
+}
+.time-input span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.filter-bottom-row {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.price-input{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.price-input input
+{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #cfcfd1;
+    padding: 0 10px 0 10px;
+    width: 100px;
+}
+.price-input span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*innentől autókártya*/
+.upper-card {
+    position: relative;
+    display: inline-block;
+}
+.car-card{
+    background-color: #42404F;
+    border-radius: 10px;
+    height: 100%;
+}
+.upper-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.upper-card span{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.lower-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lower-card span{
+    color: white;
+    font-weight: bold;
+}
+
+.car-card-info{
+    justify-content: flex-start;
+}
+
+.reserve-button{
+    background-color: #FDC43D;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+.link-disabled-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*innentől egyenkénti autóoldal*/
+
+.individual-car-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.individual-car-div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.individual-car-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.individual-car-name{
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-car-options{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+.individual-car-info{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #2C2C2C;
+    flex-direction: column;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.individual-car-info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.individual-car-fueltrans{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.individual-car-yearpass{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.individual-car-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.individual-car-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-button{
+    background-color: #4C6087;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-size: 30px;
+    width: 40%;
+}
+.ind-reserve-button{
+    background-color: #FDC43D;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-left: 20px;
+    width: 40%;
+}
+/*új autó létrehozása*/
+.new-car-div{
+    color: white;
+    font-weight: bold;
+}
+.new-car-text{
+    font-size: x-large;
+}
+.new-car-submit{
+    background-color: #FDC43D;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}

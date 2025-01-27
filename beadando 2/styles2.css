@@ -1,0 +1,48 @@
+/*regisztráció*/
+/*előző már átláthatatlanná vált*/
+body {
+    background-color: #1B1B1B;
+}
+.registration-div{
+    color: white;
+    font-weight: bold;
+}
+.registration-text{
+    font-size: x-large;
+}
+.login-button {
+    background-color: transparent;
+    border: none;
+    color: #cfcfcf;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.reg-button{
+    background-color: #FDC43D;
+    color: #161616;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/*profil*/
+.login-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.profil-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-picture{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20% !important;
+}
