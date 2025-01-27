@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="menu">
+        <H1 id="game-title">BAKTER</H1>
+        <div id="all-menu-items">
+            <input id="name-input" type="text" placeholder="ADD MEG A NEVED!">
+            <div id="menu-buttons">
+                <div id="difficulty">
+                    <p id="difficulty-text">ÁLLÍTSD BE A NEHÉZSÉGET</p>
+                    <div id="difficulty-buttons">
+                        <div id="easy-button-div">
+                            <button class="notSelectedButton" id="easy-button">5 x 5</button>
+                            <p>KÖNNYŰ</p>
+                        </div>
+                        <div id="hard-button-div">
+                            <button class="notSelectedButton" id="hard-button">7 x 7</button>
+                            <p>NEHÉZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="start-and-description">
+                    <button id="description-button">LEÍRÁS</button>
+                    <button id="start-button">JÁTÉK INDÍTÁSA</button>
+                </div>
+            </div>
+            <p id="error-message"></p>
+        </div>
+        <img src="pics/screens/menu_rails.png">
+        <div id="description-popup" class="descriptionPopup">
+            <div class="descriptionPopupContent">
+                <span class="close">&times;</span>
+                <h2>Játék Leírása</h2>
+                <p>A játék különböző méretű négyzetrácsos hálón játszódhat, ahol a célunk az, 
+                    hogy egy összefüggő körvasútvonalat alkossunk úgy, hogy minden olyan helyre eljusson a vonat, 
+                    ahova lehetséges. Mivel szeretnénk a vasúthálózat alapanyagán spórolni, így a vasúthálózat sehol nem keresztezheti önmagát, 
+                    sehol nem ágazhat el, és nem haladhat át többször egy cellán!</p>
+            </div>
+        </div>
+    </div>
+    <div id="game-area">
+        <div id="name-timer">
+            <p>Játékos:</p>
+            <p id="name-field"></p>
+            <p>Eltelt idő:</p>
+            <p id="time-field">00 : 00</p>
+        </div>
+        <div id="game-tiles-div">
+            <table id="game-tiles"></table>
+        </div>
+    </div>
+    <div id="winning-popup">
+        <div id="winning-popup-content">
+            <span id="restart-game" class="restartGame">&times;</span>
+            <h1>Nyertél!</h1>
+            <p id="winning-name"></p>
+            <p id="winning-time">Időd: 00:00</p>
+            <div id="leaderboard-container"></div>
+        </div>
+    </div>
+    <script src="maps.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

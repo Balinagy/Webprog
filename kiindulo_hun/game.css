@@ -1,0 +1,263 @@
+#menu{
+    font-family: "Itim", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F5F6E8;
+}
+
+#all-menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-title{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 120px;
+    color: #AD9254;
+    font-weight: 900;
+}
+
+#name-input{
+    width: 75%;
+    margin-top: -40px;
+    border-radius: 8px;
+    font-size: 40px;
+    border: solid 3px #D4B776;
+    padding: 10px 80px 10px 80px;
+    text-align: center;
+}
+
+#name-input::placeholder{
+    text-align: center;
+    font-family: "Itim", cursive;
+    color: #AD9254;
+}
+
+#menu-buttons{
+    color: #B4BFA3;
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+#difficulty-text{
+    font-size: 20px;
+}
+
+#difficulty{
+    margin-right: 20px;
+    padding: 0px 10px 0px 10px;
+    border: solid 2px #B4BFA3;
+    border-radius: 8px;
+    background-color: white;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#difficulty-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#difficulty-buttons{
+    display: flex;
+    flex-direction: row;
+}
+#easy-button-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notSelectedButton{
+    border: solid 3px;
+    background-color: white;
+    border-radius: 8px;
+    color: #B4BFA3;
+    border-color: #B4BFA3;
+    font-size: 30px;
+}
+
+.notSelectedButton:hover{
+    background-color: #B4BFA3;
+    color: #0000006f;
+}
+
+#hard-button-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SelectedButton{
+    border: solid 3px;
+    background-color: #EAEFD3;
+    border-radius: 8px;
+    color: black;
+    border-color: #B4BFA3;
+    font-size: 30px;
+}
+
+#start-and-description{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#description-button{
+    width: 100%;
+    border: solid 3px;
+    background-color: #EAEFD3;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    border-color: #B4BFA3;
+    font-size: 40px;
+}
+#description-button:hover{
+    background-color:#B4BFA3;
+    color: white;
+}
+
+#start-button{
+    width: 100%;
+    border: solid 3px;
+    background-color: #a4a5ab6c;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-color: #939197;
+    font-size: 40px;
+}
+
+.descriptionPopup {
+    font-family: "Itim", cursive;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.descriptionPopupContent {
+    background-color: #EAEFD3;
+    color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #B4BFA3;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#game-area{
+    font-family: "Itim", cursive;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F5F6E8;
+}
+
+#name-timer{
+    width: 20%;
+    background-color: white;
+    border: solid 3px #a4a5ab6c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 0px,0px,0px,0px;
+}
+
+#error-message{
+    font-family: "Itim", cursive;
+    font-size: 30px;
+    display: none;
+    color: red;
+}
+
+#winning-popup{
+    font-family: "Itim", cursive;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#winning-popup-content{
+    background-color: #EAEFD3;
+    color: black;
+    font-size: 40px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #B4BFA3;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#restart-game {
+    font-family: "Itim", cursive;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#restart-game:hover,
+#restart-game:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#leaderboard-container{
+    font-size: 15px;
+}
+#leaderboard-container li{
+    list-style-type: none;
+}
